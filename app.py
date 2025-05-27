@@ -7,8 +7,8 @@ import pickle
 with open('final_model.pkl','rb') as file:
     model = pickle.load(file)
 
-with open('transformer.pkl','rb') as file:
-    transformer = pickle.load(file)
+with open('transformer.pkl','rb') as file2:
+    transformer = pickle.load(file2)
 
 def prediction(input_list):
     input_list = np.array(input_list, dtype=object)
