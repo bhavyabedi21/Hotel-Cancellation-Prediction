@@ -1,3 +1,3 @@
 xgboost
-skicit-learn
+scikit-learn
 streamlit
