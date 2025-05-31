@@ -14,7 +14,7 @@ with open('transformer.joblib', 'rb') as file:
 # Prediction function
 def prediction(input_list):
     input_list = np.array(input_list, dtype=object)
-    pred = model.predict_proba([input_list])[:, 1][0]
+    pred = model.predict_proba([input_list])[:, 1]
     chance = round(pred * 100, 2)
     if pred > 0.5:
         return f'This booking is more likely to get canceled, chances {chance}%'
