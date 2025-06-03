@@ -26,10 +26,10 @@ def main():
     st.title('INN HOTEL GROUP - Booking Cancellation Predictor')
 
     # User inputs
-    lt = st.text_input('Enter the lead time in days')
-    price = st.text_input('Enter the price of the room')
-    weekn = st.text_input('Enter the number of week nights in stay')
-    wknd = st.text_input('Enter the number of weekend nights in stay')
+    lt = st.number('Enter the lead time in days')
+    price = st.number('Enter the price of the room')
+    weekn = st.number('Enter the number of week nights in stay')
+    wknd = st.number('Enter the number of weekend nights in stay')
 
     mkt = 1 if st.selectbox('How the booking was made', ['Online', 'Offline']) == 'Online' else 0
     adult = st.selectbox('How many adults', [1, 2, 3, 4])
