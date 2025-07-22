@@ -1,12 +1,6 @@
 ## Problem Statement
-The INN Hotels Group is facing a critical rise in booking cancellations, with inventory loss reaching an all-time high of 18% and resulting \
-in approximately $0.25 million in annual revenue loss. This trend has significantly impacted profit margins and operational efficiency. The group’s current \
-heuristic, rule-based methods have proven ineffective, inefficient, and unscalable.The issue is further fueled by the growing ease of online and offline bookings \
-offering flexible cancellation policies, often allowing last-minute cancellations. These are typically driven by unforeseen changes in travel plans such as personal \
-emergencies or flight delays. Cancellations not only lead to unsold rooms (inventory loss) but also increase costs through higher distribution commissions, last-minute \
-discounts, and reduced profit margins.
-To combat this, the INN Hotels Group seeks a data science-based solution to proactively predict booking cancellations, aiming to minimize revenue loss, \
-optimize inventory management, and improve overall operational efficiency.
+The INN Hotels Group is facing a critical rise in booking cancellations, with inventory loss reaching an all-time high of 18% and resulting in approximately $0.25 million in annual revenue loss. This trend has significantly impacted profit margins and operational efficiency. The group’s current heuristic, rule-based methods have proven ineffective, inefficient, and unscalable.The issue is further fueled by the growing ease of online and offline bookings offering flexible cancellation policies, often allowing last-minute cancellations. These are typically driven by unforeseen changes in travel plans such as personal emergencies or flight delays. Cancellations not only lead to unsold rooms (inventory loss) but also increase costs through higher distribution commissions, last-minute discounts, and reduced profit margins.
+To combat this, the INN Hotels Group seeks a data science-based solution to proactively predict booking cancellations, aiming to minimize revenue loss, optimize inventory management, and improve overall operational efficiency.
 
 ## Dataset
 * **Past Data:** Past booking records including cancellation status and booking details.
